@@ -1,6 +1,6 @@
 name = "t8code_jll"
 uuid = "4ee9bed8-4011-53f7-90c2-22363c2f500d"
-version = "1.6.1+2"
+version = "2.0.0+0"
 
 [deps]
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
