@@ -4,7 +4,7 @@ export libp4est, libsc, libt8
 using Zlib_jll
 using MPItrampoline_jll
 JLLWrappers.@generate_wrapper_header("t8code")
-JLLWrappers.@declare_library_product(libp4est, "libp4est.so.2")
+JLLWrappers.@declare_library_product(libp4est, "libp4est.so.3")
 JLLWrappers.@declare_library_product(libsc, "libsc.so.2")
 JLLWrappers.@declare_library_product(libt8, "libt8.so.2")
 function __init__()
