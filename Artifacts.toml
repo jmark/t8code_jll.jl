@@ -1,0 +1,253 @@
+[[t8code]]
+arch = "aarch64"
+git-tree-sha1 = "5d5d7f0049d0a21ea099c422309cdad606e03965"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[t8code.download]]
+    sha256 = "7e19b7afd04ee6130edbef89319f9777c638112a32c277bfcc222f302a6c0286"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.aarch64-apple-darwin-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "aarch64"
+git-tree-sha1 = "712bfd219d973b756df5333d600954d2f54ee94a"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[t8code.download]]
+    sha256 = "1a56e831e56ea017c4142d40db0632b9ea20cda4cbb462004d0c42d158b673dc"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[t8code]]
+arch = "aarch64"
+git-tree-sha1 = "764678dc67b698351b451ac38aa9bf710c9e37e1"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "753ba02c02654c53ae8377e61861848e40dc3bb38e35c2993ab7ab7e2e0ba0ca"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.aarch64-linux-gnu-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "aarch64"
+git-tree-sha1 = "b5ebd635dec0fa978b55da8a39896fb93eb47b71"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "8ad8c687c630095fbe088158567f7756bc489878cd7c44147d8749368f2bff52"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.aarch64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[t8code]]
+arch = "aarch64"
+git-tree-sha1 = "dab5ce3ac70cb77c4f4f79542a46a8e2bae3ac01"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "8ba9ac853afeb75863af0326abbc9aeafd318456a5fcbd6372cd77ad4b19a1f4"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.aarch64-linux-musl-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "916c5c1768db70301b520c991d850a6bc788d7dc"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "2a0173aa6ec4f1a2c3a764d5307ebee7a134d10895e62668e743512e288ec079"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.armv6l-linux-gnueabihf-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "57be187b6ca430e236fee0ff74a65d41e5a431c3"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "5c1240f9d8b9bd7fa9378495713a1f1b5bbbcebc9eb5a7ebc146135de15afc45"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.armv6l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+[[t8code]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "8a49d9b9d09fce8b06c78b8d3eecdc2731edda05"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "e0b8b8a01ddd809c41c8d1063672b052828c6ed96524aeda8cc57d085997ef5f"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.armv6l-linux-musleabihf-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5cdcfa5d9d6ccae5f98d1ad68fc49b0a692a3f43"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "80b5748fb04566dffe68f0d2783d5837e57dc48b40c1e5b2acf886fe45b1e867"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.armv7l-linux-gnueabihf-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5b3f8392e18b05b3adf6e1560a23a427fd94c5f2"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "2199ddb6e6849aefae629ccea9d020a41c1ba3b3b3ca34246c1566586a6255a2"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.armv7l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+[[t8code]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "9e141db72613c02e1847a90aeccb08acae00574d"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "384a703a5b20b4037e23595d4df1671e1facd889a8ce1c3eee6bac74eefda02f"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.armv7l-linux-musleabihf-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "i686"
+git-tree-sha1 = "6eb6c33f68a180047df7d2cbf41954b492366c72"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "440fad58b51419ae97b611c5bfac49896306e9a438c2a93f1d55d047093be04d"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.i686-linux-gnu-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "i686"
+git-tree-sha1 = "bac7f3b586d91a4424bba04a2c085ba3377eeb95"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "655cdcc773845785b2d7b1be41ec705f3101b2a0fae02e55ebfb057583c73604"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.i686-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[t8code]]
+arch = "i686"
+git-tree-sha1 = "61f5aeb8efcbb8a2ac43a6ab8b4f79ac9911f17a"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "7c4ac552e7ffc4ced6922d9e971243d058e1b462bc20e25ab7d67fccb7111f4f"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.i686-linux-musl-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "powerpc64le"
+git-tree-sha1 = "668f948b72f4191f899cc62520c0306a784bf548"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "0eb2c377ca6afda3e435cce0a039efe52700196e85c8b4c531ceec547c8f2641"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.powerpc64le-linux-gnu-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "powerpc64le"
+git-tree-sha1 = "35cc737769b3891657265ee8dae981c68091ab1f"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "91403eb4e60d0b37c651317815fee293149ccefbb7198aeef18a1cdfd00dd618"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.powerpc64le-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[t8code]]
+arch = "x86_64"
+git-tree-sha1 = "e795f4210bd5800e27d6c54d9e18a9d3ee8f47bc"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[t8code.download]]
+    sha256 = "ee3fd26010e09534d31cc5b0351fecfe22429c67573c4dd5d4ff1000a0c6e8dd"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.x86_64-apple-darwin-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "x86_64"
+git-tree-sha1 = "6a3bd8afc79950fbb6d88ef83b0817b8a9dfb5a7"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[t8code.download]]
+    sha256 = "3784723a8797887ff44dca0718d8520437fef1b21449435b40ca2ba857f3c4c3"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[t8code]]
+arch = "x86_64"
+git-tree-sha1 = "593b8ed41f90aa10d015d6ef2032441fda382f32"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "8312b69121c52550f0ee074189b02e231a13324e2d4536a64a362ce9be9eddeb"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.x86_64-linux-gnu-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "x86_64"
+git-tree-sha1 = "9ee3bd5a805e7d8fdd0c704f2859902b3723c5e2"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "0779b9c5a82b589685328b15607ea204c389f0bb4eddc08e2a9d6c0be5fc719e"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.x86_64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[t8code]]
+arch = "x86_64"
+git-tree-sha1 = "08e88415708c12d2bf00b1d18d09f0624160ad4d"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[t8code.download]]
+    sha256 = "bfcbd318be5b0daee917b1b59521c2738d52fa69c4dbf8c21928d20056bf5741"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.x86_64-linux-musl-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "x86_64"
+git-tree-sha1 = "e1076af90156fd31d2e55cda397c93e42796779e"
+lazy = true
+mpi = "mpich"
+os = "freebsd"
+
+    [[t8code.download]]
+    sha256 = "f32d3f7eeb02bc2fbf32dfd3bf34382101d10f8d6af330d8d3357f57c69373f6"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
+[[t8code]]
+arch = "x86_64"
+git-tree-sha1 = "02d6c0b40449de9627f3bec02e62562cb425ab71"
+lazy = true
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[t8code.download]]
+    sha256 = "dce5bfdcd91955e626f26cfc39318385647aee6aabc38e8d1f2fd0bc4ccf6b8f"
+    url = "https://github.com/jmark/t8code_jll.jl/releases/download/t8code-v3.0.0+0/t8code.v3.0.0.x86_64-w64-mingw32-mpi+microsoftmpi.tar.gz"
